@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مدونة محمد زكي - أنمي</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>مدونة محمد زكي - أنمي</h1>
+        <nav>
+            <ul>
+                <li><a href="#">الرئيسية</a></li>
+                <li><a href="#">مقالات</a></li>
+                <li><a href="#">اتصل بنا</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="banner">
+        <h2>مرحبًا في عالم الأنمي!</h2>
+    </section>
+
+    <section class="content">
+        <article>
+            <img src="death-note.jpg" alt="أنمي ديث نوت">
+            <h2>مراجعة أنمي ديث نوت</h2>
+            <p>أنمي Death Note هو واحد من أعظم الأنميات في التاريخ، حيث يدور حول دفتر مميت يمكنه قتل أي شخص عند كتابة اسمه فيه.</p>
+            <a href="#">اقرأ المزيد...</a>
+        </article>
+    </section>
+
+    <footer>
+        <p>© 2025 مدونة محمد زكي - جميع الحقوق محفوظة.</p>
+    </footer>
+</body>
+</html>
+body {
+    font-family: Arial, sans-serif;
+    background-color: #111;
+    color: white;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background: #222;
+    padding: 20px;
+}
+
+h1 {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 28px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.banner {
+    background: url('anime-banner.jpg') no-repeat center center/cover;
+    padding: 100px 0;
+    font-size: 24px;
+}
+
+.content article {
+    background: #333;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.content img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+footer {
+    background: #222;
+    padding: 10px;
+    margin-top: 20px;
+} 
